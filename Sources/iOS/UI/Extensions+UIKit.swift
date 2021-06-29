@@ -14,3 +14,15 @@ internal extension UIView {
         return UINib(nibName: String(describing: self), bundle: .resolvedBundle)
     }
 }
+
+extension CircularDashboardViewController {
+    override var shouldAutorotate: Bool {
+        return false
+    }
+}
+
+extension BarDashboardViewController {
+    override var shouldAutorotate: Bool {
+        return false
+    }
+}
